@@ -2,12 +2,26 @@ body {
 	color: Color.brown;
 	font-family: 'Roboto Mono';
 	padding: 20%;
+
+	font-size: 1.2em;
 }
 
 .introduction {
 
 }
 
+.about {
+
+}
+
+.socials {
+	padding: 10px;
+}
+
 #name {
+
+}
+
+a {
 
 }
