@@ -1,9 +1,10 @@
 body {
-	color: Color.brown;
+	background-color: #F0F0F0;
 	font-family: 'Roboto Mono';
-	padding: 20%;
-
 	font-size: 1.2em;
+	color: #242424;
+
+	padding: 20%;
 }
 
 .introduction {
@@ -19,9 +20,10 @@ body {
 }
 
 #name {
-
+	color: #000000;
+	font-size: 1.2em;
 }
 
 a {
-
+	color: #242424;
 }
