@@ -4,26 +4,22 @@ body {
 	font-size: 1.2em;
 	color: #242424;
 
-	padding: 20%;
-}
-
-.introduction {
-
-}
-
-.about {
-
-}
-
-.socials {
-	padding: 10px;
-}
-
-#name {
-	color: #000000;
-	font-size: 1.2em;
+	padding: 15%;
 }
 
 a {
 	color: #242424;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+.socials {
+	padding: 0px 10px;
+}
+
+#name {
+	color: #000000;
+	font-size: 1.1em;
 }
