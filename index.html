@@ -1,41 +1,104 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Andy Tran</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700&display=swap" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/3f38ccdf4b.js" crossorigin="anonymous"></script>
+  <title>Andy Tran</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/3f38ccdf4b.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
-	<h1>
-		Hi there! I'm <span id="name">Andy Tran.</span>
-	</h1>
+  <h1 id="introduction" class="shadow">
+    Hi there! I'm <span id="myname">Andy Tran.</span>
+  </h1>
+  <hr>
+  <p>
+    I'm currently studying <strong>Software Engineering</strong> at the
+    <a href="https://www.ucalgary.ca"><strong>University of Calgary</strong></a>
+    in Alberta, Canada.
+  </p>
 
-	<p>
-		I'm currently studying <strong>Software Engineering</strong> at the 
-		<a href="http://www.ucalgary.ca"><strong>University of Calgary</strong></a> 
-		in Alberta, Canada.
+  <p>
+    Some of my passions include <strong>weightlifting, video games, and music.</strong> <br>
+	I have been actively weightlifting for the last 5 years, it's something that keeps me active and lets me refresh my head whenever I'm stressed. 
+	Video games have been a part of my life for as long as I can remember, the most prominent memories I have playing games are shared with family and friends.
+	I have a deep appreciation for music; it's a beautiful artform that connects the audience to the artists. 
+	I've been to several concerts and music festivals in Calgary and Edmonton.
+  </p>
+
+  <p>
+	I'm currently searching for an internship ranging from 4-16 months starting in May, 2020. 
+	If you're interested or you have any further questions feel free to check out my resume
+    <a href="files/resume.pdf" target="_blank">here</a>
+    or send me an email
+    <a href="mailto: andy.tran1@ucalgary.ca">here</a>!
+  </p>
+
+  <div class="socials grow">
+    <a href="https://www.github.com/andytran36" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.facebook.com/andytran36" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.instagram.com/andytran36" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/andytran36" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://www.twitter.com/andytran36" target="_blank"><i class="fab fa-twitter"></i></a>
+  </div>
+
+  <h2 id="projects" class="shadow">Projects</h2>
+  <hr>
+  <div class="project grow">
+    <h3 class="name">UniversiTea
+		<a href="https://github.com/oscarwong67/UniversiTea" target="_blank"><i class="fab fa-github"></i></a>
+	</h3>
+    <p class="description">
+		Website for students to post confessions to their university forums. Users can post images or text and get responses from their peers.
+		Course project done in a group of 7 for Software Architectures class.
+		Used HTML, CSS, and JavaScript along with other frameworks such as Vue and Hapi, using Node.js for runtime.
+		The application has microservices for comments, posts, and notifications which connect to the main application.
+		The frontend connects to the main application via RESTful API and the main application redirects the requests to the correct services.
 	</p>
-
-	<p>
-		Some of my passions include <strong>weightlifting, video games, and music.</strong> <br>
-		I have been actively weightlifting for the last 5 years, it's something that keeps me active and lets me refresh my head whenever I'm stressed. Video games have been a part of my life since my dad passed down his knowledge of all the secrets in Super Mario for the SNES.
+	<p class="reason">
+		Our group was prompted to create a web application that users could login, post, and comment on posts.
+		The implementation of the project had to use several software architectures such as CQRS, Event Sourcing, MVC, and Microservices.
+		Our idea was to create a page where students could post their thoughts and confessions in one place. 
+		We used Trello and Discord to communicate; Trello was used to keep track of tasks that needed to be done, tasks in progress, and finished tasks.
+		Discord was used to have meeting since we could not meet up in person du eto COVID-19.
 	</p>
-
-	<p>
-		I'm currently searching for an internship ranging from 4-16 months starting in May, 2020. If you're interested or you have any further questions feel free to check out my resume 
-		<a href="files/resume.pdf" target="_blank">here</a> 
-		or send me an email 
-		<a href="mailto: andy.tran1@ucalgary.ca">here</a>!
+	<p class="teachings"> 
+		Prior to this project, I have not done much programming in JavaScript aside from some Udemy courses on web development.
+		This project helped me udnerstand how important communicaion is in projects with larger teams.
+		My group mates were extremely positive and open to communicate which facilitated efficient work.
+		In term of technical skills, my JavaScript skills have advanced quickly to keep up with my teammates, and I have a greater understanding of acync, await, and promises.
 	</p>
-
-	<div class="socials">
-		<a href="http://www.github.com/andytran36" target="_blank"><i class="fab fa-github"></i></a>
-		<a href="http://www.facebook.com/andytran36" target="_blank"><i class="fab fa-facebook"></i></a>
-		<a href="http://www.instagram.com/andytran36" target="_blank"><i class="fab fa-instagram"></i></a>
-		<a href="http://www.linkedin.com/in/andytran36" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-		<a href="http://www.twitter.com/andytran36" target="_blank"><i class="fab fa-twitter"></i></a>
+    <div class="pictures">
+      
 	</div>
+
+	<h3 class="name">Project C (WIP) 
+		<a href="https://github.com/andytran36/project-c" target="_blank"><i class="fab fa-github"></i></a>
+	</h3>
+    <p class="description">
+		Turn-based JRPG-styled game similar to old installments of the Final Fantasy Series. 
+		This project was done over reading week of Fall 2019.
+		Players can explore the overworld and randomly run into encounters which prompts a battle.
+	</p>
+	<p class="reason">
+		This project came about from a personal passion of mine.
+		Since before I pursued my education in software engineering, I always liked to imagine how games come to life from ideas.
+		I always imagined how things like health and money are calculated and how exp is distributed over the course of the game to create balanced game progression.
+		This project was my way of exploring this passion of mine a little more and dig a little deeper.
+	</p>
+	<p class="teachings"> 
+		I learned a lot from this project and greatly developed confidence in my understanding of OOP and my programming abilities in Java. 
+		I ran into several challenges over the course of the project such as implementation of enemy encounters and combat.
+		To overcome this problem, I did research into how other game developers managed their game states and chose an implementation idea that best suited my application.
+		In solving these challenges as they appeared I more about how to prevent issues ahead of time by conducting more research.
+		This project deepened by appreciation for games and game developers by showing me how much work is actually needed to make a well-made game.
+	</p>
+    <div class="pictures">
+      <img src="files/project-c-1.gif" alt="Character running into an encounter">
+    </div>
+  </div>
 </body>
+
 </html>
