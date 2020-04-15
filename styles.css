@@ -44,13 +44,12 @@ h2#projects {
 #projects {
 	margin-top: 100px;
 }
+.project {
+	margin-bottom: 40px;
+}
 
 .project .name {
   	padding-left: 50px;
-}
-
-.pictures {
-	margin-bottom: 40px;
 }
 
 .pictures img {
