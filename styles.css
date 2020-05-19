@@ -18,8 +18,8 @@ a {
   	font-size: 1.2em;
 }
 
-h1#introduction {
-	font-size: 2rem;
+span#introduction {
+	font-size: 1rem;
 }
 
 h2#projects {
@@ -38,20 +38,36 @@ h2#projects {
 
 #myname {
 	color: #000000;
-	font-size: 1.1em;
+	font-size: 1.05em;
 }
 
 #projects {
-	margin-top: 100px;
+	margin-top: 50px;
 }
+
 .project {
 	margin-bottom: 40px;
+	background-color: #FFFFFF;
+	padding: 10px 40px;
+	border-radius: 30px;
+	font-size: 1rem;
 }
 
 .project .name {
-  	padding-left: 50px;
+	padding-left: 50px;
 }
 
 .pictures img {
 	border-radius: 20px;;
+}
+
+span#introduction h1 {
+	display: inline;
+}
+
+span.profile img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	float: none;
 }
