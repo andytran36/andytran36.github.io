@@ -4,6 +4,7 @@
 	padding: 0;
 }
 
+/* variables */
 :root {
 	--main-gray: #3b3b3b;
 	--main-light: #f0f0f0;
@@ -11,13 +12,9 @@
 	--main-red: #FF595E;
 }
 
-
 /* smaller screens */
 @media (max-width: 768px) {
-	html {
-		font-size: 14px;
-		;
-	}
+	html { font-size: 16px; }
 
 	#socials {
 		text-align: center;
@@ -32,6 +29,8 @@
 
 /* larger screens */
 @media (min-width: 768px) {
+
+	html { font-size: 20px; }
 
 	/* socials stuff */
 	#socials {
@@ -60,7 +59,6 @@ body {
 	background-color: var(--main-light);
 	font-family: 'Raleway', sans-serif;
 	text-align: left;
-	font-size: 1.2em;
 	color: var(--main-black);
 }
 
@@ -68,16 +66,12 @@ html {
 	scroll-behavior: smooth;
 }
 
-a {
-	color: inherit;
-}
-
-a:visited {
-	color: inherit;
-}
+a { color: inherit; }
+a:visited { color: inherit; }
+a:focus { outline: none; }
 
 h1 {
-	font-size: 2rem;
+	font-size: 2.5rem;
 	margin: 10px 0 0 0;
 }
 
@@ -87,6 +81,8 @@ h2 {
 
 p {
 	margin: 0 0 20px 0;
+	font-size: 16px;
+	line-height: 30px;
 }
 
 #main {
@@ -149,6 +145,7 @@ p {
 #welcome p {
 	color: var(--main-red);
 	font-weight: 300;
+	font-size: 1.4rem;
 }
 
 #profile {
@@ -159,6 +156,7 @@ p {
 	display: block;
 	border-color: var(--main-light);
 	border-style: solid;
+	border-width: thick;
 }
 
 /* about section */
@@ -175,8 +173,8 @@ p {
 
 .button {
 	display: inline-block;
-	margin: 0 30px 0 0;
-	width: 200px;
+	margin: 0 30px 10px 0;
+	width: 300px;
 	height: 40px;
 	line-height: 40px;
 	font-weight: 800;
@@ -184,11 +182,13 @@ p {
 	border: 2px solid var(--main-black);
 	text-align: center;
 	position: relative;
-	transition: all .25s;
+	transition: all .2s;
+	font-size: 16px;
 }
 
 .button span {
 	position: relative;
+	margin: auto;
 	z-index: 2;
 }
 
@@ -200,7 +200,7 @@ p {
 	width: 0;
 	height: 100%;
 	background: var(--main-gray);
-	transition: all .25s;
+	transition: all .2s;
 }
 
 .button:hover {
@@ -227,12 +227,20 @@ p {
 	max-width: 100%;
 }
 
+.project a {
+	margin: 0 20px;
+}
+
 /* footer section */
 footer {
 	text-align: center;
-	padding: 0 0 10vh 0;
+	padding: 2vh 0 10vh 0;
 }
 
 footer a {
 	text-decoration: none;
+}
+
+footer a:hover {
+	opacity: 0.7;
 }
