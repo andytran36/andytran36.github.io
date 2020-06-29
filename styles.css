@@ -11,6 +11,8 @@
 	--main-red: #FF595E;
 }
 
+
+/* smaller screens */ 
 @media (max-width: 768px) {
 	html {
 		font-size: 14px;
@@ -22,8 +24,13 @@
 		font-size: 30px;
 		margin: 5%;
 	}
+
+	#socials a {
+		margin: 0 20px;
+	}
 }
 
+/* larger screens */ 
 @media (min-width: 768px) {
 
 	/* socials stuff */
@@ -51,7 +58,7 @@
 
 body {
 	background-color: var(--main-light);
-	font-family: 'Roboto Mono';
+	font-family: 'Raleway', sans-serif;
 	text-align: left;
 	font-size: 1.2em;
 	color: var(--main-black);
@@ -120,6 +127,7 @@ p {
 	text-align: center;
 	text-decoration: none;
 	padding: 1rem 1.5rem;
+	font-weight: 800;
 }
 
 #navbar ul li a:hover {
@@ -140,6 +148,7 @@ p {
 
 #welcome p {
 	color: var(--main-red);
+	font-weight: 300;
 }
 
 #profile {
@@ -176,7 +185,7 @@ p {
 /* footer section */
 footer {
 	text-align: center;
-	padding: 0 0 3% 0;
+	padding: 0 0 10vh 0;
 }
 
 footer a {
