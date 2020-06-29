@@ -1,2 +1,2 @@
-# andytran36.github.io
-Personal Site
+# andytrann.ca
+My personal site containing a list of all my recent projects.
