@@ -8,5 +8,7 @@ window.onscroll = function () {
             document.getElementById("navbar").style.top = "-60px";
         }
         prevScrollpos = currentScrollPos;
+    } else {
+        document.getElementById("navbar").style.top = "0";
     }
 }
