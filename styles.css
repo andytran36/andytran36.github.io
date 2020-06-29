@@ -13,32 +13,40 @@
 
 @media (max-width: 768px) {
 	html {
-		font-size: 14px;;
+		font-size: 14px;
+		;
+	}
+
+	#socials {
+		text-align: center;
+		font-size: 30px;
+		margin: 5%;
 	}
 }
 
 @media (min-width: 768px) {
+
 	/* socials stuff */
-#socials {
-	font-size: 20px;
-	margin: 10px;
-	position: fixed;
-	display: grid;
-	align-items: end;
-	grid-gap: 20px;
-	left: 30px;
-	bottom: 100px;
-}
+	#socials {
+		font-size: 20px;
+		margin: 10px;
+		position: fixed;
+		display: grid;
+		align-items: end;
+		grid-gap: 20px;
+		left: 30px;
+		bottom: 100px;
+	}
 
-#socials a {
-	transition: .5s;
-	color: var(--main-gray);
-}
+	#socials a {
+		transition: .5s;
+		color: var(--main-gray);
+	}
 
-#socials a:hover {
-	padding-left: 10px;
-	transition: .5s;
-}
+	#socials a:hover {
+		padding-left: 10px;
+		transition: .5s;
+	}
 }
 
 body {
@@ -49,10 +57,17 @@ body {
 	color: var(--main-black);
 }
 
-html { scroll-behavior: smooth; }
+html {
+	scroll-behavior: smooth;
+}
 
-a { color: inherit; }
-a:visited { color:inherit; }
+a {
+	color: inherit;
+}
+
+a:visited {
+	color: inherit;
+}
 
 h1 {
 	font-size: 2rem;
@@ -111,28 +126,6 @@ p {
 	background-color: #e04f53;
 }
 
-/* socials stuff */
-/* #socials {
-	font-size: 1.2em;
-	margin: 10px;
-	position: fixed;
-	display: grid;
-	align-items: end;
-	grid-gap: 20px;
-	left: 30px;
-	bottom: 100px;
-}
-
-#socials a {
-	transition: .5s;
-	color: var(--main-gray);
-}
-
-#socials a:hover {
-	padding-left: 10px;
-	transition: .5s;
-} */
-
 /* landing screen section */
 #welcome {
 	color: var(--main-light);
@@ -166,9 +159,7 @@ p {
 	align-items: center;
 }
 
-#about {
-
-}
+#about {}
 
 /* project section */
 .project {
