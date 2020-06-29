@@ -51,6 +51,7 @@
 
 	#socials a:hover {
 		padding-left: 10px;
+		color: var(--main-red);
 		transition: .5s;
 	}
 }
@@ -75,8 +76,8 @@ h1 {
 	margin: 10px 0 0 0;
 }
 
-h2 {
-	margin: 0 0 20px 0;
+h2, h3, h4 {
+	margin-bottom: 20px;
 }
 
 p {
@@ -225,6 +226,7 @@ p {
 
 .project .pictures img {
 	max-width: 100%;
+	margin-bottom: 20px;
 }
 
 .project a {
