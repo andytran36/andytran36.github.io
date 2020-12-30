@@ -1,164 +1,229 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Andy Tran</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,700;1,200;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3f38ccdf4b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </head>
 
-<head>
-	<title>Andy Tran</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,700;1,200;1,700&display=swap"
-		rel="stylesheet">
-	<script src="https://kit.fontawesome.com/3f38ccdf4b.js" crossorigin="anonymous"></script>
-	<script src="script.js"></script>
-</head>
+  <body>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#">andyTran</a></li>
+        <li><a href="#about">.about</a></li>
+        <li><a href="#projects">.projects</a></li>
+        <li><a href="#about">.contact</a></li>
+      </ul>
+    </nav>
 
-<body>
-	<nav id="navbar">
-		<ul>
-			<li><a href="#">andyTran</a></li>
-			<li><a href="#about">.about</a></li>
-			<li><a href="#projects">.projects</a></li>
-			<li><a href="#about">.contact</a></li>
-		</ul>
-	</nav>
+    <div id="welcome">
+      <img id="profile" src="files/portrait.jpeg" alt="" />
+      <h1>Hi there! I'm Andy Tran</h1>
+      <p><i>a Software Engineering Student</i></p>
+    </div>
 
-	<div id="welcome">
-		<img id="profile" src="files/portrait.jpeg" alt="">
-		<h1>Hi there! I'm Andy Tran</h1>
-		<p><i>a Software Engineering Student</i></p>
-	</div>
+    <div id="main">
+      <div id="about">
+        <div>
+          <h2>A Little Bit About Me</h2>
+          <p>
+            I'm currently studying <strong>Software Engineering</strong> at the
+            <a href="https://www.ucalgary.ca"
+              ><strong>University of Calgary</strong></a
+            >
+            in Alberta, Canada.
+          </p>
 
-	<div id="main">
+          <p>
+            Some of my interests include
+            <strong>weightlifting, video games, and music.</strong> <br />
+            I have been actively weightlifting for the last 6 years, it keeps me
+            active and brings me back to focus whenever I'm feeling off track.
+            Video games have been a part of my life for as long as I can
+            remember; at the moment, you will most likely catch me playing Final
+            Fantasy XIV or VALORANT. I mostly listen to R&B and EDM. A few of my
+            favorite artists at the moment are Daniel Caesar, Gryffin, and Cash
+            Cash.
+          </p>
 
-		<div id="about">
-			<div>
-				<h2>A Little Bit About Me</h2>
-				<p>
-					I'm currently studying <strong>Software Engineering</strong> at the
-					<a href="https://www.ucalgary.ca"><strong>University of Calgary</strong></a>
-					in Alberta, Canada.
-				</p>
+          <p>
+            I'm currently searching for an internship/co-op ranging from 4-16
+            months starting in Summer 2021.
+          </p>
+          <div id="about-buttons">
+            <a class="button" href="files/resume.pdf" target="_blank"
+              ><span>MY RESUME</span></a
+            >
+            <a class="button" href="mailto: andytran636@gmail.com"
+              ><span>EMAIL ME</span></a
+            >
+          </div>
+        </div>
+      </div>
 
-				<p>
-					Some of my interests include <strong>weightlifting, video games, and music.</strong> <br>
-					I have been actively weightlifting for the last 6 years, it keeps me active and brings me back to
-					focus whenever I'm feeling off track.
-					Video games have been a part of my life for as long as I can remember; at the moment, you will most
-					likely catch me playing Final Fantasy XIV or VALORANT.
-					I mostly listen to R&B and EDM. A few of my favorite artists at the moment are Daniel Caesar, Gryffin,
-					and Cash Cash.
-				</p>
+      <div id="projects">
+        <h2>My Latest Projects</h2>
+        <div class="project">
+          <h3 class="name">
+            Cards Against Quarantine
+            <a
+              href="https://github.com/seanmai/CardsAgainstQuarantine"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </h3>
+          <p class="description">
+            Cards Against Humanity clone for web browsers where users can create
+            game rooms and join game rooms via join codes. 
+          </p>
+          <div class="pictures">
+            <img
+              src="files/cards-against-quarantine-1.png"
+              alt="Character running into an encounter"
+            />
+          </div>
+          <h4>How this project came to be</h4>
+          <p class="reason">
+            This project was created for a web-based systems course which
+            required us to make a web application which supports concurrent
+            users and interactability between users. We thought that a game
+            would be the best way to showcase interactability while also being a
+            fun project that we were passionate about. We had group members
+            pitch ideas and held a poll after to choose the project that most
+            group members wanted to work on.
+          </p>
+          <h4>What I learned from this project</h4>
+          <p class="teachings">
+            Prior to working on this project, I have been learning React via
+            some online courses and tutorials. During the project I challenged
+            myself to work on the front end and apply what I have learned from
+            the course. Although it was slow to begin with, I asked for help
+            from my peers and I began seeing parts of the course in our project
+            and how they could be applied to real-world applications such as
+            useState and useEffect hooks in functional components. I think this
+            project was great to work on and allowed me to deepen my
+            understanding of React and React Components.
+          </p>
+        </div>
+        <div class="project">
+          <h3 class="name">
+            UniversiTea
+            <a href="https://github.com/oscarwong67/UniversiTea" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </h3>
+          <p class="description">
+            This is a website for students to post confessions to their
+            respective university forums. Users can post images or text and get
+            responses from their peers. Course project done in a group of 7 for
+            Software Architectures class. Used HTML, CSS, and JavaScript along
+            with other frameworks such as Vue and Hapi, using Node.js for
+            runtime. The application has microservices for comments, posts, and
+            notifications which connect to the main application. The frontend
+            connects to the main application via RESTful API and the main
+            application redirects the requests to the correct services.
+          </p>
+          <div class="pictures"></div>
+          <h4>How this project came to be</h4>
+          <p class="reason">
+            Our group was prompted to create a web application that users could
+            login, post, and comment on posts. The implementation of the project
+            had to use several software architectures such as CQRS, Event
+            Sourcing, MVC, and Microservices. Our idea was to create a page
+            where students could post their thoughts and confessions in one
+            place. We used Trello and Discord to communicate; Trello was used to
+            keep track of tasks that needed to be done, tasks in progress, and
+            finished tasks. Discord was used to have meeting since we could not
+            meet up in person due to COVID-19.
+          </p>
+          <h4>What I learned from this project</h4>
+          <p class="teachings">
+            Prior to this project, I have not done much programming in
+            JavaScript aside from some Udemy courses on web development. This
+            project helped me udnerstand how important communicaion is in
+            projects with larger teams. My group mates were extremely positive
+            and open to communicate which facilitated efficient work. In term of
+            technical skills, my JavaScript skills have advanced quickly to keep
+            up with my teammates, and I have a greater understanding of acync,
+            await, and promises.
+          </p>
+        </div>
+        <div class="project">
+          <h3 class="name">
+            Project C
+            <a href="https://github.com/andytran36/project-c" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </h3>
+          <p class="description">
+            Turn-based JRPG-styled game similar to old installments of the Final
+            Fantasy Series. This project was done over reading week of Fall
+            2019. Players can explore the overworld and randomly run into
+            encounters which prompts a battle.
+          </p>
+          <div class="pictures">
+            <img
+              src="files/project-c-1.gif"
+              alt="Character running into an encounter"
+            />
+          </div>
+          <h4>How this project came to be</h4>
+          <p class="reason">
+            This project came about from a personal passion of mine. Since
+            before I pursued my education in software engineering, I always
+            liked to imagine how games come to life from ideas. I always
+            imagined how things like health and money are calculated and how exp
+            is distributed over the course of the game to create balanced game
+            progression. This project was my way of exploring this passion of
+            mine a little more and dig a little deeper.
+          </p>
+          <h4>What I learned from this project</h4>
+          <p class="teachings">
+            I learned a lot from this project and greatly developed confidence
+            in my understanding of OOP and my programming abilities in Java. I
+            ran into several challenges over the course of the project such as
+            implementation of enemy encounters and combat. To overcome this
+            problem, I did research into how other game developers managed their
+            game states and chose an implementation idea that best suited my
+            application. In solving these challenges as they appeared I more
+            about how to prevent issues ahead of time by conducting more
+            research. This project deepened by appreciation for games and game
+            developers by showing me how much work is actually needed to make a
+            well-made game.
+          </p>
+        </div>
+      </div>
+    </div>
+    <nav id="socials">
+      <a href="https://www.github.com/andytran36" target="_blank"
+        ><i class="fab fa-github"></i
+      ></a>
+      <a href="https://www.facebook.com/andytran36" target="_blank"
+        ><i class="fab fa-facebook"></i
+      ></a>
+      <a href="https://www.instagram.com/andytran36" target="_blank"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      <a href="https://www.linkedin.com/in/andytran36" target="_blank"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <a href="https://www.twitter.com/andytran36" target="_blank"
+        ><i class="fab fa-twitter"></i
+      ></a>
+    </nav>
 
-				<p>
-					I'm currently searching for an internship/co-op ranging from 4-16 months starting in Summer 2021.
-				</p>
-				<div id="about-buttons">
-					<a class="button" href="files/resume.pdf" target="_blank"><span>MY RESUME</span></a>
-					<a class="button" href="mailto: andytran636@gmail.com"><span>EMAIL ME</span></a>
-				</div>
-			</div>
-		</div>
-
-		<div id="projects">
-			<h2>My Latest Projects</h2>
-			<div class="project">
-				<h3 class="name">UniversiTea
-					<a href="https://github.com/oscarwong67/UniversiTea" target="_blank"><i
-							class="fab fa-github"></i></a>
-				</h3>
-				<p class="description">
-					This is a website for students to post confessions to their respective university forums. Users can
-					post
-					images or text and get responses from their peers.
-					Course project done in a group of 7 for Software Architectures class.
-					Used HTML, CSS, and JavaScript along with other frameworks such as Vue and Hapi, using Node.js for
-					runtime.
-					The application has microservices for comments, posts, and notifications which connect to the main
-					application.
-					The frontend connects to the main application via RESTful API and the main application redirects the
-					requests to the correct services.
-				</p>
-				<div class="pictures">
-
-				</div>
-				<h4>How this project came to be</h4>
-				<p class="reason">
-					Our group was prompted to create a web application that users could login, post, and comment on
-					posts.
-					The implementation of the project had to use several software architectures such as CQRS, Event
-					Sourcing, MVC, and Microservices.
-					Our idea was to create a page where students could post their thoughts and confessions in one
-					place.
-					We used Trello and Discord to communicate; Trello was used to keep track of tasks that needed to
-					be
-					done, tasks in progress, and finished tasks.
-					Discord was used to have meeting since we could not meet up in person due to COVID-19.
-				</p>
-				<h4>What I learned from this project</h4>
-				<p class="teachings">
-					Prior to this project, I have not done much programming in JavaScript aside from some Udemy
-					courses on web development.
-					This project helped me udnerstand how important communicaion is in projects with larger teams.
-					My group mates were extremely positive and open to communicate which facilitated efficient work.
-					In term of technical skills, my JavaScript skills have advanced quickly to keep up with my
-					teammates,
-					and I have a greater understanding of acync, await, and promises.
-				</p>
-			</div>
-			<div class="project">
-				<h3 class="name">Project C
-					<a href="https://github.com/andytran36/project-c" target="_blank"><i class="fab fa-github"></i></a>
-				</h3>
-				<p class="description">
-					Turn-based JRPG-styled game similar to old installments of the Final Fantasy Series.
-					This project was done over reading week of Fall 2019.
-					Players can explore the overworld and randomly run into encounters which prompts a battle.
-				</p>
-				<div class="pictures">
-					<img src="files/project-c-1.gif" alt="Character running into an encounter">
-				</div>
-				<h4>How this project came to be</h4>
-				<p class="reason">
-					This project came about from a personal passion of mine.
-					Since before I pursued my education in software engineering, I always liked to imagine how games
-					come to
-					life from ideas.
-					I always imagined how things like health and money are calculated and how exp is distributed
-					over
-					the
-					course of the game to create balanced game progression.
-					This project was my way of exploring this passion of mine a little more and dig a little deeper.
-				</p>
-				<h4>What I learned from this project</h4>
-				<p class="teachings">
-					I learned a lot from this project and greatly developed confidence in my understanding of OOP
-					and my
-					programming abilities in Java.
-					I ran into several challenges over the course of the project such as implementation of enemy
-					encounters
-					and combat.
-					To overcome this problem, I did research into how other game developers managed their game
-					states
-					and
-					chose an implementation idea that best suited my application.
-					In solving these challenges as they appeared I more about how to prevent issues ahead of time by
-					conducting more research.
-					This project deepened by appreciation for games and game developers by showing me how much work
-					is
-					actually needed to make a well-made game.
-				</p>
-			</div>
-		</div>
-	</div>
-	<nav id="socials">
-		<a href="https://www.github.com/andytran36" target="_blank"><i class="fab fa-github"></i></a>
-		<a href="https://www.facebook.com/andytran36" target="_blank"><i class="fab fa-facebook"></i></a>
-		<a href="https://www.instagram.com/andytran36" target="_blank"><i class="fab fa-instagram"></i></a>
-		<a href="https://www.linkedin.com/in/andytran36" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-		<a href="https://www.twitter.com/andytran36" target="_blank"><i class="fab fa-twitter"></i></a>
-	</nav>
-
-	<footer>
-		<a href="https://github.com/andytran36/andytran36.github.io">Built by Andy Tran</a>
-	</footer>
-</body>
-
+    <footer>
+      <a href="https://github.com/andytran36/andytran36.github.io"
+        >Built by Andy Tran</a
+      >
+    </footer>
+  </body>
 </html>

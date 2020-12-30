@@ -227,8 +227,10 @@ p {
 }
 
 .project .pictures img {
-	max-width: 100%;
+	width: 100%;
+	max-width: 600px;
 	margin-bottom: 20px;
+	border: 1px solid black;
 }
 
 .project a {
