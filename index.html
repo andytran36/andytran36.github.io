@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Andy Tran</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,700;1,200;1,700&display=swap"
       rel="stylesheet"
@@ -11,76 +12,9 @@
       src="https://kit.fontawesome.com/3f38ccdf4b.js"
       crossorigin="anonymous"
     ></script>
-    <script src="script.js"></script>
   </head>
-
   <body>
-    <nav id="navbar">
-      <ul>
-        <li><a href="#">andyTran</a></li>
-        <li><a href="#about">.about</a></li>
-      </ul>
-    </nav>
-
-    <div id="welcome">
-      <img id="profile" src="files/portrait.jpg" alt="" />
-      <h1>Hi there! I'm Andy Tran</h1>
-      <p><i>Software Developer</i></p>
-    </div>
-
-    <div id="main">
-      <div id="about">
-        <div>
-          <h2>A Little Bit About Me</h2>
-          <p>
-            I graduated with a Bachelor's degree in <strong>Software Engineering</strong> at the
-            <a href="https://www.ucalgary.ca">
-              <strong>University of Calgary</strong>
-            </a>
-            in Alberta, Canada.
-          </p>
-
-          <p>
-            I have been working profesionally as a software developer at <strong>WestJet</strong> since 2021, primarily focused on front-end development.
-          </p>  
-          <p>
-            Some of my interests include
-            <strong>weightlifting, video games, and music.</strong> <br />
-            I have been actively weightlifting since 2014, it's been an outlet for my energy and keeps me active in a field where we normally don't get much physical activity.
-          </p>
-          <div id="about-buttons">
-            <a class="button" href="files/resume.pdf" target="_blank"
-              ><span>MY RESUME</span></a
-            >
-            <a class="button" href="mailto: andytran636@gmail.com"
-              ><span>EMAIL ME</span></a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-    <nav id="socials">
-      <a href="https://www.github.com/andytran36" target="_blank"
-        ><i class="fab fa-github"></i
-      ></a>
-      <a href="https://www.facebook.com/andytran36" target="_blank"
-        ><i class="fab fa-facebook"></i
-      ></a>
-      <a href="https://www.instagram.com/andytran36" target="_blank"
-        ><i class="fab fa-instagram"></i
-      ></a>
-      <a href="https://www.linkedin.com/in/andytran36" target="_blank"
-        ><i class="fab fa-linkedin-in"></i
-      ></a>
-      <a href="https://www.twitter.com/andytran36" target="_blank"
-        ><i class="fab fa-twitter"></i
-      ></a>
-    </nav>
-
-    <footer>
-      <a href="https://github.com/andytran36/andytran36.github.io"
-        >Built by Andy Tran</a
-      >
-    </footer>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
